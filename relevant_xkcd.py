@@ -8,13 +8,13 @@ Created on Tue Dec 29 16:24:22 2020
 import streamlit as st
 import pickle
 import numpy as np
-import spacy
+import en_core_web_lg
 
 
 @st.cache(allow_output_mutation=True)
 def load_model():
     #load Spacy languag model. Model only needs to be loaded once
-    return spacy.load("en_core_web_lg")
+    return en_core_web_lg.load()
 
 @st.cache
 def load_pickles():
