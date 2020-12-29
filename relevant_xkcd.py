@@ -33,7 +33,7 @@ nlp = load_model()
 comics, title_matrix, idx_to_keys = load_pickles()
 
 st.title("relevant_xkcd")
-st.text("For everything is a relevant xkcd comic. The problem is finding the most relevant ont. This is a simple app which does that for you based on your query.")
+st.write("For everything is a relevant xkcd comic. The problem is finding the most relevant ont. This is a simple app which does that for you based on your query.")
 
 query = st.text_input("Enter your query")
 number_of_results = st.slider('Select number of results', min_value=1, max_value=10)
