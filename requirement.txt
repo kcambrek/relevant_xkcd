@@ -1,0 +1,3 @@
+numpy==1.19.3https://github.com/kcambrek/relevant_xkcd
+streamlit==0.73.1
+spacy==2.3.5
